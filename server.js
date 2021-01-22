@@ -50,7 +50,6 @@ app.get('/api/rates', (req, res) => {
       currency.forEach((rate) => {
         finalRate = rate.toUpperCase() || undefined
         if (rate.length >= 1) {
-          console.log(rate.length)
           rates[finalRate] = json.rates[finalRate] || 'not available for now'
         } else {
           rates[finalRate] = json.rates[finalRate]
