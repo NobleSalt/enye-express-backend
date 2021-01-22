@@ -4,11 +4,12 @@
   "description": "Api for getting currency exchange rates",
   "main": "server.js",
   "engines": {
-    "node": "12.18.4"
+    "node": "12.19.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm i --save && nodemon server.js"
+    "dev": "npm i --save && nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
