@@ -7,7 +7,7 @@ Api for getting Currency exchange rates
 [data source](https://api.exchangeratesapi.io/latest)
 
 ```javascript
-const url = 'http://localhost:200/api/rates?base=USD&currency=GBP'
+const url = 'https://enye-express-backend.herokuapp.com/api/rates?base=USD&currency=GBP'
 
 // response
 {
