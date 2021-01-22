@@ -4,7 +4,7 @@ Api for getting Currency exchange rates
 
 # How to use
 
-[data source](https://api.exchangeratesapi.io/)
+[data source](https://exchangeratesapi.io/)
 
 ```javascript
 url = 'https://enye-express-backend.herokuapp.com/api/rates?base=USD&currency=GBP'
