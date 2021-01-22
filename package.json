@@ -1,0 +1,35 @@
+{
+  "name": "enye-express-backend",
+  "version": "1.0.1",
+  "description": "Api for getting currency exchange rates",
+  "main": "server.js",
+  "engines": {
+    "node": "12.18.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm i --save && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NobleSalt/enye-express-backend.git"
+  },
+  "keywords": [
+    "express",
+    "enye",
+    "web-scholarship"
+  ],
+  "author": "Emmanuel Izuchukwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NobleSalt/enye-express-backend/issues"
+  },
+  "homepage": "https://github.com/NobleSalt/enye-express-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-logger": "0.0.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1"
+  }
+}
